@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+const float pi = 3.1416;
+
+int main()
+{
+    int radius;
+
+    printf("Enter the radius of a circle: ");
+    scanf("%d", &radius);
+
+    float circumference = 2*pi*radius;
+
+    printf("The circumference of the circle: %.2f ", circumference);
+
+    return 0;
+}
